@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/evakhan/chayatheme/issues"
   },
-  "homepage": "https://evakhan.gitlab.io/chayatheme",
+  "homepage": "https://evakhan.github.io/chayatheme",
   "dependencies": {
     "gh-pages": "^1.2.0"
   }
