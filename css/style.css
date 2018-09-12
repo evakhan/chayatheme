@@ -1,0 +1,114 @@
+body {
+    /*background-color: #000;*/
+    background-image: url("/image/crooked_bg.png");
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+}
+
+.klogo {
+    width: 150px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/image/image_prlx_2.jpg");
+    /* Set a specific height */
+    min-height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:359px) and (min-width:300px){
+    .parallax {
+    /* The image used */
+    background-image: url("/image/image_prlx_320.jpg") ;
+    /* Set a specific height */
+    min-height: 182px ;
+    background-position-y: 2em;
+}
+    
+}
+
+@media only screen and (max-width:424px) and (min-width:360px){
+    .parallax {
+    /* The image used */
+    background-image: url("/image/image_prlx_375.jpg") ;
+    /* Set a specific height */
+    min-height: 213px ;
+    background-position-y: 2em;
+    
+}
+    
+}
+
+@media only screen and (max-width:767px) and (min-width:425px){
+    .parallax {
+    /* The image used */
+    background-image: url("/image/image_prlx_425.jpg") ;
+    /* Set a specific height */
+    min-height: 241px ;
+    background-position-y: 2em;
+    
+}
+    video.vid{
+    width: 100% !important;
+}
+    
+}
+
+@media only screen and (max-width:1023px) and (min-width:768px){
+    .parallax {
+    /* The image used */
+    background-image: url("/image/image_prlx_768.jpg") ;
+    /* Set a specific height */
+    min-height: 383px ;
+    background-position-y: 1em;
+}
+    
+}
+
+.cop {
+    background-color: rgba(237,237,237,0.9);
+    color: #000;
+}
+video.vid{
+    width: 50%;
+}
+.text-content {
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.bg {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+a.btn.btn-danger {
+    background-color: #ed2939 !important;
+    border-color: #ed2939;
+}
+
+span.btn-text {
+    font-weight: bold;
+}
+
+.dpad {
+    padding-top: 2em;
+}
+.prlx{
+    padding: 0;
+}
+.down-spacer {
+    padding-bottom: 1em;
+}
+.no-style{
+    list-style: none;
+}
+.footer {
+    background-color: #ededed;
+    color: #000;
+    text-align: center;
+}
