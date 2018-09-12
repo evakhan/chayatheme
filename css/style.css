@@ -75,7 +75,7 @@ h2 {
     color: #000;
 }
 video.vid{
-    width: 50%;
+    width: 100% !important;
 }
 .text-content {
     font-size: 18px;
